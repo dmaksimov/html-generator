@@ -36,6 +36,7 @@
                 <div class="form-group">
                     <label for="template">Template</label>
                     <textarea name="template" cols="30" rows="20" class="form-control">{{ old('template') }}</textarea>
+                    <div class="form-text text-muted">Use double curly braces for variables (e.g. @{{my column}})</div>
                 </div>
 
                 <button class="btn-primary">Submit</button>
